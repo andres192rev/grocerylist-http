@@ -4,11 +4,22 @@
     "description": "",
     "main": "app.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "jest"
     },
     "author": "Andres Guzman",
     "license": "ISC",
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "supertest": "^6.3.3"
+    },
+    "jest": {
+        "coverage": "true",
+        "testEnvironment": "node",
+        "coveragePathIgnorePatterns": [
+            "/node_modules/"
+        ]
+    },
     "dependencies": {
-      "winston": "^3.10.0"
+        "winston": "^3.10.0"
     }
-  }
+}

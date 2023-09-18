@@ -77,3 +77,36 @@
 2023-09-14T21:45:20.285Z [warn]: This is a warning message
 2023-09-14T21:45:26.148Z [info]: Getting Grocery List: []
 2023-09-14T21:45:31.247Z [error]: something went wrong idk
+2023-09-15T16:20:23.868Z [error]: something went wrong idk
+2023-09-15T16:20:28.840Z [error]: Uncaught Exception: groceryList is not defined
+2023-09-15T16:21:57.045Z [error]: Uncaught Exception: logger is not defined
+2023-09-15T16:22:44.660Z [error]: Uncaught Exception: logger is not defined
+2023-09-15T16:23:41.554Z [info]: Getting Grocery List: undefined
+2023-09-15T16:24:30.221Z [info]: Getting Grocery List: undefined
+2023-09-15T16:25:46.046Z [info]: Adding grocery item: {"id":0,"productName":"Cookies","price":9.99,"qty":5,"purchased":false}
+2023-09-15T16:25:54.738Z [info]: Getting Grocery List: undefined
+2023-09-15T16:28:22.773Z [info]: Getting Grocery List 2: 
+2023-09-15T16:28:58.567Z [info]: Getting Grocery List 2: 
+2023-09-15T17:04:30.701Z [info]: Getting Grocery List 2: 
+2023-09-15T17:19:34.915Z [info]: Getting Grocery List 2: 
+2023-09-15T17:20:09.276Z [info]: Adding grocery item: {"id":0,"productName":"Cookies","price":9.99,"qty":5,"purchased":false}
+2023-09-15T17:24:27.407Z [info]: Adding grocery item: {"id":0,"productName":"Cookies","price":9.99,"qty":5,"purchased":false}
+2023-09-15T17:24:39.221Z [info]: Getting Grocery List 2: [object Object]
+2023-09-15T17:25:40.781Z [info]: new item updated{"id":0,"productName":"Cookies","price":91.99,"qty":5,"purchased":false}
+2023-09-15T17:37:23.580Z [info]: Adding grocery item: {"id":1,"productName":"hotdog","price":9.99,"qty":5,"purchased":false}
+2023-09-15T17:37:36.079Z [info]: Adding grocery item: {"id":2,"productName":"banana","price":9.99,"qty":5,"purchased":false}
+2023-09-15T17:37:38.985Z [info]: Getting Grocery List 2: [object Object],[object Object],[object Object]
+2023-09-15T18:04:58.804Z [info]: Getting Grocery List 2: []
+2023-09-15T18:06:00.049Z [info]: Getting Grocery List 2: []
+2023-09-15T19:59:41.462Z [info]: grocery list: []
+2023-09-15T21:35:17.184Z [info]: retrieved grocery list: []
+2023-09-15T22:02:51.407Z [info]: retrieved grocery list: []
+2023-09-15T22:02:55.182Z [info]: Adding grocery item: {"id":2,"productName":"banana","price":9.99,"qty":5,"purchased":false}
+2023-09-15T22:03:12.679Z [info]: retrieved grocery list: [{"id":2,"productName":"banana","price":9.99,"qty":5,"purchased":false}]
+2023-09-15T22:34:17.653Z [info]: retrieved grocery list: []
+2023-09-15T22:34:23.162Z [info]: Adding grocery item: {"id":2,"productName":"banana","price":9.99,"qty":5,"purchased":false}
+2023-09-15T22:34:31.019Z [info]: new item updated: {"id":0,"productName":"Cookies","price":91.99,"qty":5,"purchased":false}
+2023-09-15T22:34:58.954Z [info]: retrieved grocery list: []
+2023-09-15T22:35:05.726Z [info]: Adding grocery item: {"id":0,"productName":"banana","price":9.99,"qty":5,"purchased":false}
+2023-09-15T22:35:10.182Z [info]: deleting item at index: id=0
+2023-09-15T22:35:10.183Z [info]: {"id":0,"productName":"banana","price":9.99,"qty":5,"purchased":false} has been removed

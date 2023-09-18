@@ -1,3 +1,4 @@
+
 const { createLogger, transports, format} = require('winston');
 
 // create the logger
@@ -15,12 +16,6 @@ const logger = createLogger({
     ]
 })
 
-// using the logger
-logger.info("This is an info message");
-logger.error("This is an error message");
-logger.warn("This is a warning message");
-
-// handling uncaught exceptions
 
 process.on('uncaughtException', (error) => {
     logger.error('Uncaught Exception:', error);
@@ -30,4 +25,5 @@ process.on('uncaughtException', (error) => {
     })
 })
 
-throw new Error("Random Error");
+
+module.exports = logger;
